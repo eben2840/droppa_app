@@ -37,8 +37,8 @@ export function WaitlistForm() {
   if (status === "success") {
     return (
       <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
-        <h3 className="text-green-800 font-semibold mb-2">Welcome to the waitlist!</h3>
-        <p className="text-green-600">Check your email for confirmation.</p>
+        <h3 className="text-green-800 font-semibold mb-2">Thank you for joining the Droppa community!</h3>
+        <p className="text-green-600">I will be in touch very soon with some exciting news!</p>
       </div>
     );
   }
@@ -55,9 +55,10 @@ export function WaitlistForm() {
           className="flex-1 px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
         />
         <Button
+          className={"w-full sm:w-auto text-center justify-center"}          
           type="submit"
           color="dark"
-          label={status === "loading" ? "Joining..." : "Try out Droppa"}
+          label={status === "loading" ? "Joining..." : "Join Our Community"}
           disabled={status === "loading"}
         />
       </div>
