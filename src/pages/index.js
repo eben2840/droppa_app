@@ -142,7 +142,7 @@ export default function Home() {
      
       <CtaSection
         title="Ready to get started?"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique"
+        description="I still remember the day I got lost in Germany. No signal, no clue, just vibes and Google Maps pretending to help."
         buttons={[{ label: "Start for Free", href: "#", color: "dark" }]}
       />
       {/* <Footer
