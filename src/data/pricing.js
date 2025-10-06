@@ -25,8 +25,8 @@ export const pricing = [
     name: "Navigator",
     description: "For frequent travelers",
     value: {
-      monthly: 15,
-      yearly: 12,
+      monthly: 0,
+      yearly: 0,
     },
     unit: "per user/month",
     currency: "$", 
@@ -46,8 +46,8 @@ export const pricing = [
     name: "Fleet",
     description: "For business fleets",
     value: {
-      monthly: 29,
-      yearly: 24,
+      monthly: 0,
+      yearly: 0,
     },
     unit: "per user/month",
     currency: "$",
