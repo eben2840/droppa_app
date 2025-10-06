@@ -13,7 +13,7 @@ export function PricingSection({
 }) {
   const [tenure, setTenure] = React.useState("yearly");
   return (
-    <section className="bg-base-100 dark:bg-base-900 py-24 mt-10" {...rest}>
+    <section className="bg-base-100 dark:bg-base-900 py-24 mt-20" {...rest}>
       <div className="container px-4 mx-auto min-h-screen">
         <SectionHeading
           align="center"

@@ -23,10 +23,10 @@ export function SectionHeading({
       {...rest}
     >
       {/* {badge && <Badge {...badge} />} */}
-      <h2 className="text-2xl md:text-4xl lg:text-5xl font-display text-title font-semibold">
+      <h2 className="text-2xl md:text-4xl lg:text-5xl font-display text-title font-bold">
         {title}
       </h2>
-      <p className="text-base md:text-lg">{description}</p>
+      <p className="text-black md:text-lg ">{description}</p>
       {buttons.length > 0 && (
         <div
           className={cn("flex flex-col sm:flex-row justify-center items-center gap-4 mt-8", {

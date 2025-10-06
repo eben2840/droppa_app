@@ -1,6 +1,6 @@
 export const header = {
   logo: {
-    // src: "",
+    src: "./2 copy.png",
     text: "Droppa",
     alt: "logo",
     href: "/",
@@ -29,6 +29,7 @@ export const header = {
       href: "#",
       color: "dark",
       size: "small",
+      icon: "tabler:rocket",
     },
     // {
     //   label: "Sign Up",

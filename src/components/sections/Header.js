@@ -8,7 +8,7 @@ import { Button } from "#/base";
 export function Header({ logo, links, buttons, className, ...rest }) {
   const [open, setOpen] = useState(false);
   return (
-    <header className="fixed w-full bg-white/90 backdrop-blur-xl z-10">
+    <header className="fixed w-full bg-white backdrop-blur-xl z-10">
       <nav
         className={cn(
           "relative h-14 container px-4 mx-auto border-b border-base flex flex-wrap justify-between items-center gap-2 md:gap-4 lg:gap-8",
