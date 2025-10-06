@@ -70,7 +70,7 @@ export default function Home() {
 <FaqSection
         id="faqs"
         title="Welcome to Droppa!"
-        description="Here are some of our most frequently asked questions. If you have a question that isn't answered here, please feel free to contact us."
+        description="What if finding your way didn’t have to be confusing?"
         buttons={[
           {
             label: "Contact Support",
