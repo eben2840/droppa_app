@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Badge, Button } from "#/base";
 import { Brands } from "#/Brands";
+import { WaitlistForm } from "../WaitlistForm";
 import { cn } from "@/lib/utils";
 
 export function HeroSection({
@@ -11,6 +12,7 @@ export function HeroSection({
   image,
   clientsLabel,
   clients,
+  showWaitlistForm,
   ...rest
 }) {
   return (
@@ -24,12 +26,18 @@ export function HeroSection({
               {title}
             </h1>
             <p className="text-lg md:text-xl px-4">{description}</p>
-            {buttons.length > 0 && (
-              <div className="flex justify-center items-center gap-4 mt-8">
-                {buttons.map((button, index) => (
-                  <Button key={index} {...button} />
-                ))}
+            {showWaitlistForm ? (
+              <div className="mt-8 w-full max-w-md">
+                <WaitlistForm />
               </div>
+            ) : (
+              buttons?.length > 0 && (
+                <div className="flex justify-center items-center gap-4 mt-8">
+                  {buttons.map((button, index) => (
+                    <Button key={index} {...button} />
+                  ))}
+                </div>
+              )
             )}
           </div>
           <div>

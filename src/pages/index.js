@@ -42,21 +42,7 @@ export default function Home() {
         }}
         title="Droppa"
         description="Navigate smarter with Droppa, your AI-powered location assistant. Using advanced machine learning, we analyze real-time data to find the most efficient routes and get you to your destination faster and safer."
-        buttons={[
-          {
-            href: "#",
-            label: "Try Droppa For Free",
-            color: "dark",
-            icon: "tabler:rocket",
-          },
-          // {
-          //   href: "#",
-          //   label: "About Us",
-          //   color: "transparent",
-          //   variant: "link",
-          //   icon: "tabler:arrow-right",
-          // },
-        ]}
+        showWaitlistForm={true}
         image={{
           // src: "./tablet-mockup.png",
           // alt: "Product Screenshot on Tablet",
