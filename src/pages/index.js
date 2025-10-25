@@ -41,7 +41,7 @@ export default function Home() {
           label: "Smart Navigation",
         }}
         title="Droppa"
-        description="Navigate smarter with Droppa, your AI-powered location assistant. Using advanced machine learning, we analyze real-time data to find the most efficient routes and get you to your destination faster and safer."
+        description="Navigate smarter with Droppa, your AI-powered location assistant."
         showWaitlistForm={true}
         image={{
           // src: "./tablet-mockup.png",

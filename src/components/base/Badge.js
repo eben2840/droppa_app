@@ -15,9 +15,9 @@ export function Badge({
     <Tag
       href={href}
       className={cn(
-        "group inline-flex gap-2 items-center rounded-2xl bg-primary-100 dark:bg-primary-950 text-primary-500 dark:text-primary-300 text-md px-4 py-2 leading-none ",
+        "group inline-flex  items-center rounded-2xl bg-secondary-100 text-secondary-500 dark:text-secondary-300 text-md px-4 py-2 mt-5 ",
         href &&
-          "cursor-pointer hover:bg-primary-200 dark:hover:bg-primary-800 transition duration-200 ease-in-out",
+          "cursor-pointer hover:bg-success-200 dark:hover:bg-success-800 transition duration-200 ease-in-out",
         className
       )}
       {...rest}
