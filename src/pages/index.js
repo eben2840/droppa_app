@@ -52,7 +52,7 @@ export default function Home() {
         clients={clients}
       /> 
 
-
+{/* 
 <FaqSection
         id="faqs"
         title="Welcome to Droppa!"
@@ -67,7 +67,7 @@ export default function Home() {
           },
         ]}
         faqs={faqs}
-      />
+      /> */}
       {/* <FeatureSection
         id="features"
         title="Discover Our Amazing Features"
@@ -97,7 +97,7 @@ export default function Home() {
             "w-full aspect-square object-contain -rotate-6 hover:rotate-0 duration-300 ease-in-out",
         }}
       /> */}
-      <PricingSection
+      {/* <PricingSection
         id="pricing"
         title="Pricing for Everyone"
         description="Choose a plan that works for you. All plans include a 7-day free trial."
@@ -107,8 +107,8 @@ export default function Home() {
           label: "Plans",
         }}
         pricing={pricing}
-      />
-      <TestimonialSection
+      /> */}
+      {/* <TestimonialSection
         id="testimonials"
         title="Love from our users all over"
         description="A journey from corporate to startup founder has been a thrilling ride of innovation, resilience, and relentless pursuit of dreams."
@@ -125,7 +125,7 @@ export default function Home() {
           color: "white",
         }}
       />
-     
+      */}
       <CtaSection
         title="Ready to get started?"
         description="I still remember the day I got lost in Germany. No signal, no clue, just vibes and Google Maps pretending to help."

@@ -47,8 +47,8 @@ export function HeroSection({
               className={cn("w-full h-auto", image.className)}
             />
           </div>
-          <div className="text-sm">{clientsLabel}</div>
-          <Brands clients={clients} />
+          {/* <div className="text-sm">{clientsLabel}</div> */}
+          {/* <Brands clients={clients} /> */}
         </div>
       </div>
     </section>

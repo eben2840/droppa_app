@@ -11,16 +11,16 @@ export const header = {
     //   href: "#features",
     // },
     {
-      label: "Pricing",
+      label: "Instagram",
+      href: "https://www.instagram.com/dr.ohenemills/",
+    },
+    {
+      label: "Youtube",
       href: "#pricing",
     },
     {
-      label: "Testimonials",
+      label: "TikTok",
       href: "#testimonials",
-    },
-    {
-      label: "Support",
-      href: "#faqs",
     },
   ],
   buttons: [
