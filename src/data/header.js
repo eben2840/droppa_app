@@ -22,6 +22,10 @@ export const header = {
       label: "TikTok",
       href: "#testimonials",
     },
+    {
+      label: "Privacy",
+      href: "/privacy",
+    },
   ],
   buttons: [
     {
