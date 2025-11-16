@@ -29,12 +29,16 @@ export const header = {
   ],
   buttons: [
     {
-      label: "Try it Out",
-      href: "#",
+      label: "Download App",
+      href: "https://apps.apple.com/gh/app/droppa-app/id6754825283",
       color: "dark",
       size: "small",
       icon: "tabler:rocket",
     },
+
+    // <a href="https://apps.apple.com/gh/app/droppa-app/id6754825283">
+    // <img src="./apple-app-store-travel-awards-globestamp-7.png" width="200" />
+    // </a>
     // {
     //   label: "Sign Up",
     //   href: "#",

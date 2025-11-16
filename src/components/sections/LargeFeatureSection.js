@@ -20,7 +20,10 @@ export function LargeFeatureSection({
               title={title}
               description={description}
             />
-            <div className="flex flex-col gap-4 mt-4 lg:mt-10">
+
+          
+           
+            <div className="flex flex-col gap-4 mt-4 lg:mt-10 mb-5">
               {list.map((item, index) => (
                 <FeatureCard
                   key={index}
@@ -31,7 +34,13 @@ export function LargeFeatureSection({
                 />
               ))}
             </div>
+
+           <a href="https://apps.apple.com/gh/app/droppa-app/id6754825283">
+           <img src="./apple-app-store-travel-awards-globestamp-7.png" width="200" />
+           </a>
+
           </div>
+          
           <div
             className={cn("group relative flex items-center isolate", {
               "md:order-first": reverse,

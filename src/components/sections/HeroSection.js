@@ -25,7 +25,9 @@ export function HeroSection({
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold title-gradient">
               {title}
             </h1>
+            
             <p className="text-lg md:text-xl px-4">{description}</p>
+            
             {showWaitlistForm ? (
               <div className="mt-1 mb-5 w-full max-w-md">
                 <WaitlistForm />
@@ -39,6 +41,7 @@ export function HeroSection({
                 </div>
               )
             )}
+            
           </div>
           <div>
             <img
@@ -47,6 +50,7 @@ export function HeroSection({
               className={cn("w-full h-auto", image.className)}
             />
           </div>
+          
           {/* <div className="text-sm">{clientsLabel}</div> */}
           {/* <Brands clients={clients} /> */}
         </div>

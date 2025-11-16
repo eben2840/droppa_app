@@ -1,32 +1,32 @@
 export const features = [
   {
-    title: "Unlimited users",
-    description: "Invite as many team members as you want.",
+    title: "Instant discovery",
+    description: "Find restaurants, cafés, gyms, and hidden gems in seconds.",
     icon: "tabler:users",
   },
   {
-    title: "Unlimited projects",
-    description: "Create as many projects as you need.",
+    title: "AI-powered accuracy",
+    description: "Get the best suggestions instantly, anytime, anywhere.",
     icon: "tabler:stack",
   },
   {
-    title: "Unlimited storage",
-    description: "Store all your files and assets in one place.",
+    title: "Fast and reliable",
+    description: "Built for real-world movement with ultra-quick responses.",
     icon: "tabler:database",
   },
-  {
-    title: "Priority support",
-    description: "Get priority support for all your needs.",
-    icon: "tabler:headset",
-  },
-  {
-    title: "Advanced analytics",
-    description: "Get detailed insights and analytics.",
-    icon: "tabler:chart-bar",
-  },
-  {
-    title: "Custom branding",
-    description: "Customize your branding and make it yours.",
-    icon: "tabler:brand-appstore",
-  },
+  // {
+  //   title: "Priority support",
+  //   description: "Get priority support for all your needs.",
+  //   icon: "tabler:headset",
+  // },
+  // {
+  //   title: "Advanced analytics",
+  //   description: "Get detailed insights and analytics.",
+  //   icon: "tabler:chart-bar",
+  // },
+  // {
+  //   title: "Custom branding",
+  //   description: "Customize your branding and make it yours.",
+  //   icon: "tabler:brand-appstore",
+  // },
 ];

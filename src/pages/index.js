@@ -48,12 +48,14 @@ export default function Home() {
           // alt: "Product Screenshot on Tablet",
           // className: "w-full h-auto",
         }}
+
+
         clientsLabel="Be the first to try Droppa"
         clients={clients}
       /> 
 
-{/* 
-<FaqSection
+
+{/* <FaqSection
         id="faqs"
         title="Welcome to Droppa!"
         description="What if finding your way didn’t have to be confusing?"
@@ -85,10 +87,13 @@ export default function Home() {
             "w-full aspect-square object-contain rotate-6 hover:rotate-0 duration-300 ease-in-out",
         }}
       /> */}
-      {/* <LargeFeatureSection
+        
+
+
+      <LargeFeatureSection
         reverse={true}
-        title="Stay on top of your business"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique"
+        title="Ultra-fast, and built for the modern world."
+        description="Your engine for instant discovery: food, travel, gyms, cafés, and hidden gems."
         list={features.slice(0, 3)}
         image={{
           src: "./phone-mockup.png",
@@ -96,7 +101,7 @@ export default function Home() {
           className:
             "w-full aspect-square object-contain -rotate-6 hover:rotate-0 duration-300 ease-in-out",
         }}
-      /> */}
+      />
       {/* <PricingSection
         id="pricing"
         title="Pricing for Everyone"
@@ -108,7 +113,7 @@ export default function Home() {
         }}
         pricing={pricing}
       /> */}
-      {/* <TestimonialSection
+      <TestimonialSection
         id="testimonials"
         title="Love from our users all over"
         description="A journey from corporate to startup founder has been a thrilling ride of innovation, resilience, and relentless pursuit of dreams."
@@ -125,7 +130,7 @@ export default function Home() {
           color: "white",
         }}
       />
-      */}
+     
       <CtaSection
         title="Ready to get started?"
         description="I still remember the day I got lost in Germany. No signal, no clue, just vibes and Google Maps pretending to help."
