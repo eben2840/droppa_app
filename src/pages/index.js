@@ -40,14 +40,17 @@ export default function Home() {
           icon: "tabler:arrow-right",
           label: "Smart Navigation",
         }}
+        
+        buttons={[{ label: "Download Droppa App", href: "https://apps.apple.com/gh/app/droppa-app/id6754825283", color: "dark" }]}
         title="Droppa"
         description="Navigate smarter with Droppa, your AI-powered location assistant."
-        showWaitlistForm={true}
+        // showWaitlistForm={true}
         image={{
           // src: "./tablet-mockup.png",
           // alt: "Product Screenshot on Tablet",
           // className: "w-full h-auto",
         }}
+        
 
 
         clientsLabel="Be the first to try Droppa"
@@ -90,7 +93,7 @@ export default function Home() {
         
 
 
-      <LargeFeatureSection
+      {/* <LargeFeatureSection
         reverse={true}
         title="Ultra-fast, and built for the modern world."
         description="Your engine for instant discovery: food, travel, gyms, cafés, and hidden gems."
@@ -101,7 +104,7 @@ export default function Home() {
           className:
             "w-full aspect-square object-contain -rotate-6 hover:rotate-0 duration-300 ease-in-out",
         }}
-      />
+      /> */}
       {/* <PricingSection
         id="pricing"
         title="Pricing for Everyone"
@@ -113,7 +116,7 @@ export default function Home() {
         }}
         pricing={pricing}
       /> */}
-      <TestimonialSection
+      {/* <TestimonialSection
         id="testimonials"
         title="Love from our users all over"
         description="A journey from corporate to startup founder has been a thrilling ride of innovation, resilience, and relentless pursuit of dreams."
@@ -129,13 +132,13 @@ export default function Home() {
           href: "https://www.instagram.com/dr.ohenemills/",
           color: "white",
         }}
-      />
+      /> */}
      
-      <CtaSection
+      {/* <CtaSection
         title="Ready to get started?"
         description="I still remember the day I got lost in Germany. No signal, no clue, just vibes and Google Maps pretending to help."
         buttons={[{ label: "Start for Free", href: "#", color: "dark" }]}
-      />
+      /> */}
       {/* <Footer
         id="footer"
         copyright={footer.copyright}

@@ -11,6 +11,7 @@ export function CtaSection({ title, description, buttons, ...rest }) {
             description={description}
             buttons={buttons}
           />
+          
           <a href="https://apps.apple.com/gh/app/droppa-app/id6754825283" className="mt-5">
            <img src="./apple-app-store-travel-awards-globestamp-7.png" width="200" />
            </a>
